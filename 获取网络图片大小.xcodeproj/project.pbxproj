@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3A9CAB1EEA38B400F95DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9CAA1EEA38B400F95DC9 /* main.m */; };
+		DD3A9CAE1EEA38B400F95DC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9CAD1EEA38B400F95DC9 /* AppDelegate.m */; };
+		DD3A9CB11EEA38B400F95DC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9CB01EEA38B400F95DC9 /* ViewController.m */; };
+		DD3A9CB41EEA38B400F95DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3A9CB21EEA38B400F95DC9 /* Main.storyboard */; };
+		DD3A9CB61EEA38B400F95DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3A9CB51EEA38B400F95DC9 /* Assets.xcassets */; };
+		DD3A9CB91EEA38B400F95DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3A9CB71EEA38B400F95DC9 /* LaunchScreen.storyboard */; };
+		DD3A9CC41EEA38B500F95DC9 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9CC31EEA38B500F95DC9 /* ________Tests.m */; };
+		DD3A9CCF1EEA38B500F95DC9 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9CCE1EEA38B500F95DC9 /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3A9CC01EEA38B500F95DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3A9C9E1EEA38B400F95DC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3A9CA51EEA38B400F95DC9;
+			remoteInfo = "获取网络图片大小";
+		};
+		DD3A9CCB1EEA38B500F95DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3A9C9E1EEA38B400F95DC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3A9CA51EEA38B400F95DC9;
+			remoteInfo = "获取网络图片大小";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD3A9CA61EEA38B400F95DC9 /* 获取网络图片大小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获取网络图片大小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3A9CAA1EEA38B400F95DC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3A9CAC1EEA38B400F95DC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD3A9CAD1EEA38B400F95DC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD3A9CAF1EEA38B400F95DC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD3A9CB01EEA38B400F95DC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD3A9CB31EEA38B400F95DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3A9CB51EEA38B400F95DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3A9CB81EEA38B400F95DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD3A9CBA1EEA38B400F95DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3A9CBF1EEA38B500F95DC9 /* 获取网络图片大小Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取网络图片大小Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3A9CC31EEA38B500F95DC9 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		DD3A9CC51EEA38B500F95DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3A9CCA1EEA38B500F95DC9 /* 获取网络图片大小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取网络图片大小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3A9CCE1EEA38B500F95DC9 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		DD3A9CD01EEA38B500F95DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3A9CA31EEA38B400F95DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CBC1EEA38B500F95DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CC71EEA38B500F95DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3A9C9D1EEA38B400F95DC9 = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CA81EEA38B400F95DC9 /* 获取网络图片大小 */,
+				DD3A9CC21EEA38B500F95DC9 /* 获取网络图片大小Tests */,
+				DD3A9CCD1EEA38B500F95DC9 /* 获取网络图片大小UITests */,
+				DD3A9CA71EEA38B400F95DC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3A9CA71EEA38B400F95DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CA61EEA38B400F95DC9 /* 获取网络图片大小.app */,
+				DD3A9CBF1EEA38B500F95DC9 /* 获取网络图片大小Tests.xctest */,
+				DD3A9CCA1EEA38B500F95DC9 /* 获取网络图片大小UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3A9CA81EEA38B400F95DC9 /* 获取网络图片大小 */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CAC1EEA38B400F95DC9 /* AppDelegate.h */,
+				DD3A9CAD1EEA38B400F95DC9 /* AppDelegate.m */,
+				DD3A9CAF1EEA38B400F95DC9 /* ViewController.h */,
+				DD3A9CB01EEA38B400F95DC9 /* ViewController.m */,
+				DD3A9CB21EEA38B400F95DC9 /* Main.storyboard */,
+				DD3A9CB51EEA38B400F95DC9 /* Assets.xcassets */,
+				DD3A9CB71EEA38B400F95DC9 /* LaunchScreen.storyboard */,
+				DD3A9CBA1EEA38B400F95DC9 /* Info.plist */,
+				DD3A9CA91EEA38B400F95DC9 /* Supporting Files */,
+			);
+			path = "获取网络图片大小";
+			sourceTree = "<group>";
+		};
+		DD3A9CA91EEA38B400F95DC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CAA1EEA38B400F95DC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3A9CC21EEA38B500F95DC9 /* 获取网络图片大小Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CC31EEA38B500F95DC9 /* ________Tests.m */,
+				DD3A9CC51EEA38B500F95DC9 /* Info.plist */,
+			);
+			path = "获取网络图片大小Tests";
+			sourceTree = "<group>";
+		};
+		DD3A9CCD1EEA38B500F95DC9 /* 获取网络图片大小UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD3A9CCE1EEA38B500F95DC9 /* ________UITests.m */,
+				DD3A9CD01EEA38B500F95DC9 /* Info.plist */,
+			);
+			path = "获取网络图片大小UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3A9CA51EEA38B400F95DC9 /* 获取网络图片大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3A9CD31EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小" */;
+			buildPhases = (
+				DD3A9CA21EEA38B400F95DC9 /* Sources */,
+				DD3A9CA31EEA38B400F95DC9 /* Frameworks */,
+				DD3A9CA41EEA38B400F95DC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取网络图片大小";
+			productName = "获取网络图片大小";
+			productReference = DD3A9CA61EEA38B400F95DC9 /* 获取网络图片大小.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3A9CBE1EEA38B500F95DC9 /* 获取网络图片大小Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3A9CD61EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小Tests" */;
+			buildPhases = (
+				DD3A9CBB1EEA38B500F95DC9 /* Sources */,
+				DD3A9CBC1EEA38B500F95DC9 /* Frameworks */,
+				DD3A9CBD1EEA38B500F95DC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3A9CC11EEA38B500F95DC9 /* PBXTargetDependency */,
+			);
+			name = "获取网络图片大小Tests";
+			productName = "获取网络图片大小Tests";
+			productReference = DD3A9CBF1EEA38B500F95DC9 /* 获取网络图片大小Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD3A9CC91EEA38B500F95DC9 /* 获取网络图片大小UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3A9CD91EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小UITests" */;
+			buildPhases = (
+				DD3A9CC61EEA38B500F95DC9 /* Sources */,
+				DD3A9CC71EEA38B500F95DC9 /* Frameworks */,
+				DD3A9CC81EEA38B500F95DC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3A9CCC1EEA38B500F95DC9 /* PBXTargetDependency */,
+			);
+			name = "获取网络图片大小UITests";
+			productName = "获取网络图片大小UITests";
+			productReference = DD3A9CCA1EEA38B500F95DC9 /* 获取网络图片大小UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3A9C9E1EEA38B400F95DC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "苗建浩";
+				TargetAttributes = {
+					DD3A9CA51EEA38B400F95DC9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DD3A9CBE1EEA38B500F95DC9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD3A9CA51EEA38B400F95DC9;
+					};
+					DD3A9CC91EEA38B500F95DC9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD3A9CA51EEA38B400F95DC9;
+					};
+				};
+			};
+			buildConfigurationList = DD3A9CA11EEA38B400F95DC9 /* Build configuration list for PBXProject "获取网络图片大小" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3A9C9D1EEA38B400F95DC9;
+			productRefGroup = DD3A9CA71EEA38B400F95DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3A9CA51EEA38B400F95DC9 /* 获取网络图片大小 */,
+				DD3A9CBE1EEA38B500F95DC9 /* 获取网络图片大小Tests */,
+				DD3A9CC91EEA38B500F95DC9 /* 获取网络图片大小UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3A9CA41EEA38B400F95DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A9CB91EEA38B400F95DC9 /* LaunchScreen.storyboard in Resources */,
+				DD3A9CB61EEA38B400F95DC9 /* Assets.xcassets in Resources */,
+				DD3A9CB41EEA38B400F95DC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CBD1EEA38B500F95DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CC81EEA38B500F95DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3A9CA21EEA38B400F95DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A9CB11EEA38B400F95DC9 /* ViewController.m in Sources */,
+				DD3A9CAE1EEA38B400F95DC9 /* AppDelegate.m in Sources */,
+				DD3A9CAB1EEA38B400F95DC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CBB1EEA38B500F95DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A9CC41EEA38B500F95DC9 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3A9CC61EEA38B500F95DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3A9CCF1EEA38B500F95DC9 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3A9CC11EEA38B500F95DC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3A9CA51EEA38B400F95DC9 /* 获取网络图片大小 */;
+			targetProxy = DD3A9CC01EEA38B500F95DC9 /* PBXContainerItemProxy */;
+		};
+		DD3A9CCC1EEA38B500F95DC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3A9CA51EEA38B400F95DC9 /* 获取网络图片大小 */;
+			targetProxy = DD3A9CCB1EEA38B500F95DC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD3A9CB21EEA38B400F95DC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3A9CB31EEA38B400F95DC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3A9CB71EEA38B400F95DC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3A9CB81EEA38B400F95DC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3A9CD11EEA38B500F95DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3A9CD21EEA38B500F95DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3A9CD41EEA38B500F95DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获取网络图片大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD3A9CD51EEA38B500F95DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "获取网络图片大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD3A9CD71EEA38B500F95DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取网络图片大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取网络图片大小.app/获取网络图片大小";
+			};
+			name = Debug;
+		};
+		DD3A9CD81EEA38B500F95DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "获取网络图片大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取网络图片大小.app/获取网络图片大小";
+			};
+			name = Release;
+		};
+		DD3A9CDA1EEA38B500F95DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取网络图片大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取网络图片大小";
+			};
+			name = Debug;
+		};
+		DD3A9CDB1EEA38B500F95DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "获取网络图片大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ganZhi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取网络图片大小";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3A9CA11EEA38B400F95DC9 /* Build configuration list for PBXProject "获取网络图片大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3A9CD11EEA38B500F95DC9 /* Debug */,
+				DD3A9CD21EEA38B500F95DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3A9CD31EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3A9CD41EEA38B500F95DC9 /* Debug */,
+				DD3A9CD51EEA38B500F95DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD3A9CD61EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3A9CD71EEA38B500F95DC9 /* Debug */,
+				DD3A9CD81EEA38B500F95DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD3A9CD91EEA38B500F95DC9 /* Build configuration list for PBXNativeTarget "获取网络图片大小UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3A9CDA1EEA38B500F95DC9 /* Debug */,
+				DD3A9CDB1EEA38B500F95DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD3A9C9E1EEA38B400F95DC9 /* Project object */;
+}
